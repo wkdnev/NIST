@@ -1,0 +1,276 @@
+# High-Level Business Requirements
+
+## Critical Success Factors
+
+| ID | Critical success factor | Required business outcome |
+|---|---|---|
+| CSF-01 | **Centralised Assurance Governance** | The organisation conducts and governs its compliance activities through a consistent enterprise approach, with clear ownership, accountability, access and decision-making authority. |
+| CSF-02 | **Authoritative Standards and Control Knowledge** | The organisation maintains a trusted and current source of standards, controls, profiles, organisational guidance, asset context and related control intelligence that users can understand and reuse. |
+| CSF-03 | **Efficient Evidence and Information Management** | The organisation can collect, request, reuse, validate and maintain the evidence needed for assurance without unnecessary duplication, delay or loss of provenance. |
+| CSF-04 | **Consistent and Human-Governed Assessment** | Assessments are conducted using approved and repeatable approaches, remain traceable to their scope and evidence, and are subject to meaningful human review and approval. |
+| CSF-05 | **Explainable and Trusted AI** | AI improves the speed, consistency and insight of assurance activity while remaining transparent, measurable, auditable and under human control. |
+| CSF-06 | **Risk-Based Remediation and Continuous Improvement** | Control gaps are converted into understood and owned risks, findings and improvement actions whose progress and effect on exposure can be demonstrated. |
+| CSF-07 | **Aggregated Assurance Intelligence and Management Decision Support** | Detailed assurance information is converted into timely, traceable and decision-useful insight for operational managers, risk leaders and executives. |
+| CSF-08 | **Secure, Reliable, Accessible and Supported Service** | The service protects organisational information, remains available and recoverable, meets user accessibility needs and is operated through effective support and service-management practices. |
+
+## Governance and Organisational Management
+
+| ID | Business requirement |
+|---|---|
+| HBR-001 | The organisation requires a single, governed platform through which its compliance standards, controls, assets, evidence, assessments, findings, risks and improvement activities can be managed consistently. |
+| HBR-002 | The organisation requires clear ownership and accountability for every standard, control, asset, assessment, item of evidence, finding, risk and remedial action held within the service. |
+| HBR-003 | The organisation requires common assessment, review, risk-management and approval processes to be followed across all participating departments, business functions and asset types. |
+| HBR-004 | The organisation requires users to be given access according to their responsibilities, authority and relationship to the information being managed. |
+| HBR-005 | The organisation requires administrators to manage users, roles, departments and organisational responsibilities throughout their lifecycle. |
+| HBR-006 | The organisation requires a complete and auditable history of material activities, decisions, approvals, overrides and changes so that accountability can be demonstrated. |
+
+## Standards, Profiles and Controls
+
+| ID | Business requirement |
+|---|---|
+| HBR-007 | The organisation requires a central library containing all compliance standards, control frameworks and versions that it has chosen to manage. |
+| HBR-008 | The organisation requires new and updated standards to be added efficiently while preserving the source, identity, structure and meaning of the published material. |
+| HBR-009 | The organisation requires different versions of a standard to coexist so that current obligations and the basis of historical assessments remain clear. |
+| HBR-010 | The organisation requires standards to be presented using their recognised identifiers, titles, versions, control families and numbers of active and withdrawn requirements. |
+| HBR-011 | The organisation requires controls to retain their published hierarchy, including families, parent controls, enhancements, sub-controls, requirements, objectives and supporting guidance. |
+| HBR-012 | The organisation requires users to be able to browse, search, filter and navigate standards and controls using their identifiers, titles, families, status and type. |
+| HBR-013 | The organisation requires parent controls and their enhancements or sub-controls to be clearly related, with users able to expand the detail only when it is needed. |
+| HBR-014 | The organisation requires active, withdrawn, superseded and out-of-scope requirements to be clearly distinguished so that users understand what currently applies. |
+| HBR-015 | The organisation requires standards to be tailored into approved profiles or baselines that reflect its regulatory obligations, risk appetite, operating model and asset context. |
+| HBR-016 | The organisation requires each tailored profile to make clear which controls are included, excluded, added or modified and why those decisions were made. |
+| HBR-017 | The organisation requires organisation-defined control parameters, values, interpretations and guidance to be recorded once and applied consistently wherever they are relevant. |
+| HBR-018 | The organisation requires users to be able to view the authoritative control statement, guidance, assessment objectives, parameters, related material and approved organisational interpretation together. |
+| HBR-019 | The organisation requires complex control text to be translated into simpler requirements, practical test cases and expected outcomes without replacing or altering the authoritative source. |
+| HBR-020 | The organisation requires generated control guidance and assessment material to be reviewed, approved, rejected or regenerated by an authorised person before it is relied upon. |
+| HBR-021 | The organisation requires relationships between equivalent, overlapping or supporting controls in different standards to be visible where they can improve consistency and reduce duplicated assurance work. |
+
+## Assets and Business Context
+
+| ID | Business requirement |
+|---|---|
+| HBR-022 | The organisation requires an authoritative register of the business services, applications, platforms and operational-technology assets that may be assessed. |
+| HBR-023 | The organisation requires every asset to have a unique identity and sufficient information to describe its purpose, type, operating environment, lifecycle and importance to the business. |
+| HBR-024 | The organisation requires the business, technical and operational ownership of each asset to be clear, together with any other users authorised to contribute to its assurance activities. |
+| HBR-025 | The organisation requires the criticality, information sensitivity, regulatory relevance, location, supplier and technology context of an asset to be available when assessments and risks are considered. |
+| HBR-026 | The organisation requires operational-technology assets to include the safety, operational and architectural context needed to assess them appropriately. |
+| HBR-027 | The organisation requires assets to be associated with the departments, business areas, processes and organisational roles that depend upon or operate them. |
+| HBR-028 | The organisation requires each asset to have a maintained description of its scope, purpose, boundaries, dependencies and operating context for use by assessors and decision-makers. |
+| HBR-029 | The organisation requires users to see a consolidated view of the standards, evidence, assessments, findings, risks, solutions and actions associated with an asset. |
+
+## Evidence and Enterprise Knowledge
+
+| ID | Business requirement |
+|---|---|
+| HBR-030 | The organisation requires a central evidence repository for the policies, procedures, standards, records, reports, diagrams and other information used to demonstrate control effectiveness. |
+| HBR-031 | The organisation requires evidence to be uploaded individually, in groups or supplied as written information when no document is available. |
+| HBR-032 | The organisation requires evidence to be accepted in the common document, spreadsheet, presentation, image, diagram, structured-data and text formats used by the business. |
+| HBR-033 | The organisation requires users to be able to view supported evidence within the service and download the original material when they are authorised to do so. |
+| HBR-034 | The organisation requires evidence to be reusable across relevant controls and assessments without requiring the same material to be uploaded repeatedly. |
+| HBR-035 | The organisation requires the origin, owner, contributor, collection method, version, date, classification and validity of each item of evidence to be clear. |
+| HBR-036 | The organisation requires duplicate, replacement and superseded evidence to be identified so that users know which material is current and which was used historically. |
+| HBR-037 | The organisation requires the processing status of evidence to be visible, including whether it is waiting, being processed, ready for use or has failed and needs attention. |
+| HBR-038 | The organisation requires evidence content to remain traceable to its original document, page, section, table, image or diagram so that supporting claims can be checked. |
+| HBR-039 | The organisation requires scanned and visual evidence to be made usable for assessment while preserving access to the original material and its context. |
+| HBR-040 | The organisation requires evidence to be related to the policies, procedures, implementations and operational records that together demonstrate how a control is intended to work and whether it works in practice. |
+| HBR-041 | The organisation requires missing or broken links in the chain from policy to operational proof to be identified as potential evidence gaps. |
+| HBR-042 | The organisation requires requests for information and evidence to be assigned to the appropriate person, tracked through completion and escalated when overdue or rejected. |
+| HBR-043 | The organisation requires evidence expiry, review dates and changes to be monitored so that assessments relying on stale, withdrawn or changed evidence can be reconsidered. |
+| HBR-044 | The organisation requires evidence to be retained, protected, archived and disposed of in accordance with its legal, regulatory, contractual and records-management obligations. |
+
+## Assessment Management
+
+| ID | Business requirement |
+|---|---|
+| HBR-045 | The organisation requires authorised users to create an assessment for a selected asset and an applicable standard or tailored compliance profile. |
+| HBR-046 | The organisation requires every assessment to have a clear title, business purpose, owner, scope, assessment approach, status and record of when work began and ended. |
+| HBR-047 | The organisation requires the assessment scope to be derived consistently from the chosen standard or profile, including approved exclusions and exceptions. |
+| HBR-048 | The organisation requires any decision to exclude or treat a control as not applicable to be supported by a recorded reason and appropriate approval. |
+| HBR-049 | The organisation requires assessments to support both guided human assessment and AI-assisted assessment so that the approach can reflect the nature and scale of the work. |
+| HBR-050 | The organisation requires users to be able to assess an individual control, a group of related controls or all remaining controls within an assessment. |
+| HBR-051 | The organisation requires assessment work to continue in the background where appropriate, with progress and any failures visible to the user. |
+| HBR-052 | The organisation requires a running assessment to be paused or stopped and subsequently resumed without losing completed results or duplicating work. |
+| HBR-053 | The organisation requires every control to be assessed against its applicable requirements and assessment objectives using the evidence available for that asset. |
+| HBR-054 | The organisation requires AI to analyse relevant evidence and recommend a control-effectiveness rating, testing outcome, confidence level and areas requiring attention. |
+| HBR-055 | The organisation requires every AI-assisted assessment recommendation to explain the reasoning behind it and identify the evidence that supports or does not support the conclusion. |
+| HBR-056 | The organisation requires unsupported, contradictory or insufficient evidence to be clearly distinguished from evidence of an ineffective control. |
+| HBR-057 | The organisation requires assessment results to identify what is working, what needs attention and the practical next steps that would strengthen the control. |
+| HBR-058 | The organisation requires users to be able to inspect the specific evidence and source passages used to reach an assessment conclusion. |
+| HBR-059 | The organisation requires assessors to request or provide clarification where documentary evidence alone is insufficient to reach a reliable conclusion. |
+| HBR-060 | The organisation requires answers to assessment questions to be retained with the assessment and considered during any subsequent reassessment. |
+| HBR-061 | The organisation requires assessment progress, controls scored, results reviewed, gaps identified, evidence readiness and outstanding questions to remain visible throughout the work. |
+| HBR-062 | The organisation requires users to navigate large assessments efficiently by standard family, parent control, enhancement, outcome and review status. |
+| HBR-063 | The organisation requires authorised reviewers to accept an assessment result, amend the conclusion, reject it or request a new assessment. |
+| HBR-064 | The organisation requires human reviewers to retain final authority over assessment conclusions, including the ability to challenge and override an AI recommendation. |
+| HBR-065 | The organisation requires the original AI recommendation, the human decision and the reason for any change to remain available as part of the assessment history. |
+| HBR-066 | The organisation requires assessments to be formally reviewed and approved before they are treated as complete or distributed as final results. |
+| HBR-067 | The organisation requires the history of assessment results to be preserved so that changes in evidence, control effectiveness and risk exposure can be compared over time. |
+| HBR-068 | The organisation requires approved assessment results to be exported and shared in recognised, reusable formats without losing their scope, findings or supporting evidence references. |
+
+## Findings and Risk Management
+
+| ID | Business requirement |
+|---|---|
+| HBR-069 | The organisation requires control gaps and adverse assessment results to be identified as potential findings or risks requiring a business decision. |
+| HBR-070 | The organisation requires findings proposed during an assessment to be reviewed, approved or rejected before they become formal assurance records. |
+| HBR-071 | The organisation requires authorised users to record risks identified through assessments or through other business and assurance activities. |
+| HBR-072 | The organisation requires every risk to describe the exposure, its cause, its potential consequence and the business or asset that may be affected. |
+| HBR-073 | The organisation requires risks to be assessed consistently in terms of inherent and residual likelihood, impact and overall exposure. |
+| HBR-074 | The organisation requires each risk to retain a clear relationship to the relevant assets, controls, assessments, findings and evidence from which it arose. |
+| HBR-075 | The organisation requires risks to be categorised so that concentrations and common causes can be understood across the enterprise. |
+| HBR-076 | The organisation requires AI-generated risk recommendations to show their rationale and confidence and to be reviewed by an authorised person before becoming accepted business records. |
+| HBR-077 | The organisation requires every active risk to have an accountable owner, current status, treatment decision, review date and appropriate target dates. |
+| HBR-078 | The organisation requires risks to support avoidance, mitigation, transfer and acceptance as recognised treatment decisions, with appropriate authority required for acceptance. |
+| HBR-079 | The organisation requires overdue, unowned, high-exposure and review-due risks to be brought to the attention of the responsible owners and management. |
+| HBR-080 | The organisation requires risks and findings to retain their history and supporting relationships after treatment, transfer, acceptance or closure. |
+
+## Remediation, Implementation and Solution Planning
+
+| ID | Business requirement |
+|---|---|
+| HBR-081 | The organisation requires control weaknesses and assessment gaps to result in practical, risk-based recommendations for improvement. |
+| HBR-082 | The organisation requires general control guidance to be distinguishable from recommendations tailored to a particular asset and its operating context. |
+| HBR-083 | The organisation requires authorised users to review, amend, approve, reject or regenerate AI-proposed remediation before it is adopted. |
+| HBR-084 | The organisation requires remedial actions to have a clear description, priority, accountable owner, responsible business area, status, target date and expected effort. |
+| HBR-085 | The organisation requires users to record progress, completion, notes and supporting evidence against remedial actions. |
+| HBR-086 | The organisation requires completion of remediation to be verified through evidence or reassessment before an improvement in control effectiveness is claimed. |
+| HBR-087 | The organisation requires users to plan improvements across a control, control family, compliance profile or asset rather than managing every gap in isolation. |
+| HBR-088 | The organisation requires related improvements to be brought together into coherent plans that can be reviewed, prioritised, tracked and maintained over time. |
+| HBR-089 | The organisation requires approved improvement plans and action lists to be exportable in formats suitable for business review, delivery management and reporting. |
+
+## Dashboards, Reporting and Decision Support
+
+| ID | Business requirement |
+|---|---|
+| HBR-090 | The organisation requires a current enterprise dashboard showing its standards, active controls and requirements, assets, findings, assessment activity and risk exposure. |
+| HBR-091 | The organisation requires a clear view of overall compliance posture and the distribution of strong, adequate, partial, weak, missing, not-applicable and unassessed control results. |
+| HBR-092 | The organisation requires dashboards to distinguish completed and reviewed assurance conclusions from work that is still waiting, in progress or awaiting approval. |
+| HBR-093 | The organisation requires assessment results to be aggregated from individual requirements and controls into control families, standards, assets, departments, business functions and an enterprise view. |
+| HBR-094 | The organisation requires risk reporting to show current exposure, concentrations, treatment status, overdue activity and risks awaiting review or acceptance. |
+| HBR-095 | The organisation requires management information to identify material gaps, deteriorating controls, high risks, overdue decisions and the actions that should receive priority. |
+| HBR-096 | The organisation requires management information to show changes and trends in compliance posture, control effectiveness, assessment activity and risk exposure over time. |
+| HBR-097 | The organisation requires users to move from an aggregated score or risk indicator to the underlying controls, assessment decisions, evidence, risks and actions that contributed to it. |
+| HBR-098 | The organisation requires dashboards and reports to state their scope, date, status, exclusions, data currency and any known limitations that affect interpretation. |
+| HBR-099 | The organisation requires management reporting to be filtered and presented according to the responsibilities and information needs of the person viewing it. |
+| HBR-100 | The organisation requires assessment, risk and improvement information to support timely, evidence-based decisions by operational managers, risk leaders and executives. |
+
+## Search and Conversational Assistance
+
+| ID | Business requirement |
+|---|---|
+| HBR-101 | The organisation requires users to search across authorised standards, controls, guidance and evidence using identifiers, keywords or questions expressed in ordinary language. |
+| HBR-102 | The organisation requires search results to be relevant to the user's selected standard, profile, asset and other chosen business context. |
+| HBR-103 | The organisation requires search results to identify their source and provide a clear route to the underlying control, document or evidence. |
+| HBR-104 | The organisation requires a conversational assistant that can help users understand compliance obligations and available evidence within the information they are authorised to access. |
+| HBR-105 | The organisation requires assistant responses to identify supporting sources, distinguish fact from guidance and acknowledge when reliable information is unavailable. |
+| HBR-106 | The organisation requires users to retain and manage the history of their compliance-related conversations in accordance with information-retention rules. |
+| HBR-107 | The organisation requires conversational assistance to inform governed work without bypassing the required assessment, review, risk or approval processes. |
+
+## Control Intelligence and Cross-Framework Relationships
+
+| ID | Business requirement |
+|---|---|
+| HBR-108 | The organisation requires controls to be related to relevant cybersecurity functions, safeguards, practices, threats, weaknesses and known exploited vulnerabilities where this provides useful context. |
+| HBR-109 | The organisation requires recognised external reference information to be kept sufficiently current for the business decisions that depend upon it. |
+| HBR-110 | The organisation requires the source, version and status of imported or inferred control relationships to be clear so that official relationships are not confused with recommendations. |
+| HBR-111 | The organisation requires users to view a consolidated picture of the standards, threats, weaknesses, vulnerabilities and service-management practices related to a control. |
+| HBR-112 | The organisation requires users to start from a threat, weakness, vulnerability or external framework outcome and identify the controls that may address it. |
+| HBR-113 | The organisation requires areas of overlap between controls to be identified so that common evidence, assessment activity and remediation can be reused appropriately. |
+| HBR-114 | The organisation requires related controls to remain distinct where they express different obligations, even when they share evidence or recommended actions. |
+
+## AI Governance and Quality Management
+
+| ID | Business requirement |
+|---|---|
+| HBR-115 | The organisation requires the AI services and models used for assessment, guidance and assistance to be selected and controlled by authorised administrators. |
+| HBR-116 | The organisation requires the instructions used to guide AI behaviour to be governed, versioned and approved so that material changes can be understood and controlled. |
+| HBR-117 | The organisation requires material AI interactions to retain sufficient information to identify what was requested, which approved capability was used and what outcome was produced. |
+| HBR-118 | The organisation requires AI recommendations to be transparent, explainable, supported by relevant information and subject to meaningful human oversight. |
+| HBR-119 | The organisation requires AI confidence indicators to reflect demonstrated performance and not imply a level of certainty that has not been established. |
+| HBR-120 | The organisation requires the quality of evidence retrieval, citations, assessment recommendations and AI-generated guidance to be evaluated against representative examples. |
+| HBR-121 | The organisation requires changes to AI behaviour to be assessed before adoption so that unacceptable deterioration in quality can be identified. |
+| HBR-122 | The organisation requires AI failures, unavailable services and incomplete responses to be presented as service issues rather than as compliance conclusions. |
+| HBR-123 | The organisation requires AI-assisted content and recommendations to remain identifiable as such throughout review, reporting and audit. |
+
+## Administration and Operational Management
+
+| ID | Business requirement |
+|---|---|
+| HBR-124 | The organisation requires administrators to manage standards, profiles, generated control content, external reference information, assessment operations and platform configuration from governed administration areas. |
+| HBR-125 | The organisation requires administrators to see the progress and outcome of imports, evidence processing, assessment activity, content generation and other background work. |
+| HBR-126 | The organisation requires failed or stalled work to be identifiable and, where appropriate, safely retried without duplicating completed records. |
+| HBR-127 | The organisation requires the health and availability of the service and its important supporting capabilities to be visible to authorised operational users. |
+| HBR-128 | The organisation requires inconsistencies between business records, stored evidence and searchable knowledge to be detected and corrected in a controlled manner. |
+| HBR-129 | The organisation requires protected backups of its standards, configuration, users, assets, evidence, assessments, risks and audit history. |
+| HBR-130 | The organisation requires authorised administrators to restore the service and its information following data loss, corruption or operational failure. |
+| HBR-131 | The organisation requires administrative and operational activity to be recorded and available for authorised review. |
+| HBR-132 | The organisation requires routine retention, evidence review, information refresh and integrity activities to occur at appropriate intervals without relying entirely on manual intervention. |
+
+## Security, Privacy and Records Management
+
+| ID | Business requirement |
+|---|---|
+| HBR-133 | The organisation requires access to information and actions to be limited according to each user's responsibilities, authority and business need. |
+| HBR-134 | The organisation requires sensitive business, personal, asset, assessment and evidence information to remain secure and confidential throughout its lifecycle. |
+| HBR-135 | The organisation requires information shared with external services, including AI services, to be limited, approved and handled in accordance with its privacy and information-security obligations. |
+| HBR-136 | The organisation requires assessment, evidence, risk and reporting information to remain accurate, complete, current and internally consistent. |
+| HBR-137 | The organisation requires important records and their history to be protected from unauthorised alteration or deletion. |
+| HBR-138 | The organisation requires information to be retained, archived, placed on hold and disposed of in accordance with its legal, regulatory, contractual and records-management obligations. |
+
+## Service Quality, Accessibility and Support
+
+| ID | Business requirement |
+|---|---|
+| HBR-139 | The organisation requires the service to be available and responsive when users need to conduct assessments, review evidence, manage risks or make assurance decisions. |
+| HBR-140 | The organisation requires the service to have sufficient capacity for the expected and foreseeable numbers of users, assets, standards, controls, assessments and evidence records. |
+| HBR-141 | The organisation requires the service and its information to be recoverable within agreed business timescales following a failure or disruption. |
+| HBR-142 | The organisation requires failures in one supporting capability to be clearly communicated and prevented from producing misleading assessment or management information. |
+| HBR-143 | The organisation requires the service to be accessible and usable by people with differing abilities, technologies and access needs. |
+| HBR-144 | The organisation requires a consistent, understandable and efficient user experience across standards, controls, assets, evidence, assessments, risks and reports. |
+| HBR-145 | The organisation requires information-dense pages to remain clear and manageable, with detail available when needed without overwhelming the user. |
+| HBR-146 | The organisation requires users to receive clear feedback about long-running work, completed actions, errors and any steps needed to continue. |
+| HBR-147 | The organisation requires users to have access to current guidance, service knowledge and a clear route for reporting incidents or requesting assistance. |
+| HBR-148 | The organisation requires service incidents to be prioritised, communicated and resolved in accordance with their business impact and urgency. |
+| HBR-149 | The organisation requires recurring or significant service failures to be investigated and addressed so that their underlying causes are reduced or removed. |
+| HBR-150 | The organisation requires changes to the service to be assessed, approved, communicated and introduced in a controlled manner. |
+| HBR-151 | The organisation requires service performance, capacity, incidents, recurring problems, changes, support demand and user feedback to be monitored and regularly reviewed. |
+| HBR-152 | The organisation requires the service to adapt to new standards, regulatory obligations, organisational structures, assessment approaches and risk-management needs. |
+
+## Requirements-to-CSF Traceability
+
+Every requirement within each range is associated with the CSF or CSFs shown. Where two CSFs are listed, the requirement contributes materially to both outcomes.
+
+| Customer requirement(s) | Associated CSF(s) | Traceability rationale |
+|---|---|---|
+| HBR-001–HBR-003 | CSF-01 | Establish the central governance, accountability and consistency required for enterprise assurance. |
+| HBR-004–HBR-006 | CSF-01, CSF-08 | Govern access, organisational administration and the auditability of business activity. |
+| HBR-007–HBR-021 | CSF-02 | Establish and maintain the authoritative standards, profile, control and organisational-guidance knowledge base. |
+| HBR-022–HBR-029 | CSF-01, CSF-02 | Provide governed asset ownership and the business context needed to apply standards and assurance activity correctly. |
+| HBR-030–HBR-044 | CSF-03 | Govern the collection, processing, reuse, provenance, requesting, freshness and retention of evidence. |
+| HBR-045–HBR-053 | CSF-04 | Establish controlled assessment creation, scoping, execution and continuity. |
+| HBR-054–HBR-058 | CSF-04, CSF-05 | Apply explainable AI to evidence-based assessment while preserving assessment integrity. |
+| HBR-059–HBR-060 | CSF-03, CSF-04 | Capture clarification as governed assessment information and evidence. |
+| HBR-061–HBR-068 | CSF-04 | Govern assessment progress, navigation, human review, approval, history and distribution. |
+| HBR-069–HBR-080 | CSF-06 | Convert assessment gaps into reviewed, owned and monitored findings and risks. |
+| HBR-081–HBR-089 | CSF-06 | Translate weaknesses into prioritised, accountable and verifiable improvement activity. |
+| HBR-090–HBR-100 | CSF-07 | Aggregate detailed assurance data into traceable dashboards, trends and management decisions. |
+| HBR-101–HBR-103 | CSF-02, CSF-07 | Enable users to discover and use authorised standards, controls, guidance and evidence. |
+| HBR-104–HBR-107 | CSF-02, CSF-05 | Provide source-grounded conversational assistance under the organisation's AI governance and approval model. |
+| HBR-108–HBR-114 | CSF-02, CSF-07 | Relate controls to external intelligence and cross-framework knowledge for reuse and decision support. |
+| HBR-115–HBR-123 | CSF-05 | Govern AI selection, behaviour, explainability, quality, change and failure handling. |
+| HBR-124–HBR-126 | CSF-01, CSF-08 | Provide governed administration and operational oversight of platform activity. |
+| HBR-127–HBR-132 | CSF-08 | Maintain service health, operational integrity, backup, recovery and routine service operation. |
+| HBR-133–HBR-138 | CSF-01, CSF-08 | Protect access, privacy, information quality, record integrity and lawful retention. |
+| HBR-139–HBR-152 | CSF-08 | Ensure availability, capacity, recovery, accessibility, usability, support, service management and adaptability. |
+
+## CSF-to-Requirements Traceability
+
+| CSF | Contributing customer requirements |
+|---|---|
+| CSF-01 | HBR-001–HBR-006; HBR-022–HBR-029; HBR-124–HBR-126; HBR-133–HBR-138 |
+| CSF-02 | HBR-007–HBR-029; HBR-101–HBR-107; HBR-108–HBR-114 |
+| CSF-03 | HBR-030–HBR-044; HBR-059–HBR-060 |
+| CSF-04 | HBR-045–HBR-068 |
+| CSF-05 | HBR-054–HBR-058; HBR-104–HBR-107; HBR-115–HBR-123 |
+| CSF-06 | HBR-069–HBR-089 |
+| CSF-07 | HBR-090–HBR-103; HBR-108–HBR-114 |
+| CSF-08 | HBR-004–HBR-006; HBR-124–HBR-152 |
